@@ -8,8 +8,8 @@ This repository contains work done as part of a research project at **IIT Patna*
 
 ## Dataset
 
-- We used the **Ethereum Phishing Scams Dataset (Eth-PSD)** — a verified dataset of Ethereum blockchain records, containing officially reported phishing scam addresses and benign addresses. :contentReference[oaicite:0]{index=0}  
-- Alternatively, another dataset explored is the *Ethereum Phishing Transaction Network*. :contentReference[oaicite:1]{index=1}  
+- We used the **Ethereum Phishing Scams Dataset (Eth-PSD)** — a verified dataset of Ethereum blockchain records, containing officially reported phishing scam addresses and benign addresses. {index=0}  
+- Alternatively, another dataset explored is the *Ethereum Phishing Transaction Network*. {index=1}  
 - *Note:* Exact subset / split used, and any modifications, are described in this repo.
 
 ---
@@ -38,5 +38,15 @@ This repository contains work done as part of a research project at **IIT Patna*
 
 - The computation of attributes was **computationally expensive**, especially for large transaction history, temporal aggregation, and graph construction.  
 - Because the work was split between interns, **some code pieces (particularly for attribute computation)** are **not available** in this repo. Only the parts I contributed (model training, evaluation, etc.) are present.
+
+---
+## Acknowledgements
+
+This project was carried out under the guidance of:
+
+- Prof. Joydeep Chandra, Department of Computer Science and Engineering, IIT Patna
+- Medhasree Ghosh, Department of Computer Science and Engineering, IIT Patna
+
+Special thanks to my close friend and co-intern Ajay Navallur, whose contributions and collaboration were essential to this project.
 
 ---
